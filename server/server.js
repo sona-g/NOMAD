@@ -24,3 +24,10 @@ readdirSync('./routes').map((r) => app.use('/api', require(`./routes/${r}`)));
 //port
 app.listen(port, () => console.log(`Server is running on ${port}`))
 
+//handler for deployment
+if (process.env.NODE_ENV === 'production' || process.env.NODE_ENV === 'staging') {
+    app.use(express.static('client/build'));
+    app.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname + '/client/build/index.html'));
+    });
+   }
