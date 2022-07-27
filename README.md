@@ -9,9 +9,9 @@ It is set up with features suitable to be used by the User who can browse and bo
 The app is built to log in as a seller too, who cannot make bookings but can post the hotel availability from his/her end for the selected dates and re-edit the details if needed. The seller must set up a Stripe payout account within the app to be allowed to post as a seller. 
 
 ## Highlights
-* [x] login using JWT
+* [x] Login using JWT
 * [x] Redux for state management
-* [x] search using query-string and Autocomplete places api
+* [x] Search using query-string and Autocomplete places api
 * [x] Stripe to collect payments from user and make payouts to seller
 * [x] Bootstrap and AntDesign frameworks
 
