@@ -7,7 +7,7 @@ A MERN stack project using REST APIs and Stripe as payement gateway.
 ## Description
 It is set up with features suitable to be used by the User who can browse and book hotel for the preferred dates, and further complete booking using stripe. The user can also view his/her booking in teh booked section and view the payment reciept with the booking reference number.
 
-The app is built to log in as a seller too, who cannot make bookings but can post the hotel availability from his/her end for the selected dates and re-edit the details if needed. The seller must set up a Stripe payout account within the app to be allowed to post as a seller. 
+The app is built to log in as a Seller too, who cannot make bookings but can post the hotel availability from his/her end for the selected dates and re-edit the details if needed. The seller must set up a Stripe payout account within the app to be allowed to post as a seller. 
 
 ## Highlights
 * [x] Login using JWT
